@@ -9,9 +9,8 @@
 const lovesCode = true;
 if (lovesCode === true) {
   console.log(`I love to code!`);
-}
-else {
-  console.log(`Coding has its challenges.`)
+} else {
+  console.log(`Coding has its challenges.`);
 }
 
 // For problems 2-3 use the following lines of code:
@@ -28,11 +27,9 @@ var brittanisBirthYear = 1986;
 
 if (brittanisAge > amysAge) {
   console.log(`Brittani is older.`);
-}
- else if (brittanisAge < amysAge) {
+} else if (brittanisAge < amysAge) {
   console.log(`Ami is older.`);
-}
- else if (brittanisAge === amysAge) {
+} else if (brittanisAge === amysAge) {
   console.log(`Brittani and Ami are the same age.`);
 }
 
@@ -44,9 +41,8 @@ if (brittanisAge > amysAge) {
 
 if (amysBirthYear === brittanisBirthYear) {
   console.log(`Ami and Brittani were born in the same year.`);
-} 
-else {
-  console.log('Ami and Brittani were not born in the same year.');
+} else {
+  console.log("Ami and Brittani were not born in the same year.");
 }
 
 ////////// PROBLEM 4 //////////
@@ -61,21 +57,16 @@ let rain = true;
 
 if (temperature >= 80 && rain === true) {
   console.log(`Wear a t-shirt, but don't forget your umbrella!`);
-}
- else if (temperature >= 80 && rain === false) {
+} else if (temperature >= 80 && rain === false) {
   console.log(`Looks like a beach day!`);
-}
- else if (temperature < 80 && temperature >= 60 && rain === true) {
+} else if (temperature < 80 && temperature >= 60 && rain === true) {
   console.log(`Bring a raincoat!`);
-}
- else if (temperature < 80 && temperature >= 60 && rain === false) {
+} else if (temperature < 80 && temperature >= 60 && rain === false) {
   console.log(`Wear a long sleeve shirt.`);
-}
- else if (temperature < 60 && rain === true) {
+} else if (temperature < 60 && rain === true) {
   console.log(`Wear a jacket and bring an umbrella.`);
-}
- else if (temperature < 60 && rain === false) {
-  console.log(`Wear a warm jacket!`)
+} else if (temperature < 60 && rain === false) {
+  console.log(`Wear a warm jacket!`);
 }
 
 ////////// PROBLEM 5 //////////
@@ -110,7 +101,6 @@ for (let i = 10; i > -1; i--) {
   console.log(num2--);
 }
 
-
 ////////// PROBLEM 8 //////////
 
 let score = 0;
@@ -122,8 +112,8 @@ let passingScore = 7;
 
 while (score < passingScore) {
   console.log(`Your score is not high enough`);
-  score++
-} 
+  score++;
+}
 if (score >= passingScore) {
   console.log(`You passed!`);
 }
@@ -139,8 +129,7 @@ if (score >= passingScore) {
 let changeMyMind = true;
 if (changeMyMind === true) {
   changeMyMind = false;
-}
-else if (changeMyMind === false) {
+} else if (changeMyMind === false) {
   changeMyMind = true;
 }
 
@@ -160,6 +149,8 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 while (z > 0) {
-  console.log(z);
+  while (z > 0) {
+    console.log(z);
+  }
   z--;
 }
